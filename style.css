@@ -9,7 +9,7 @@ body {
 .bg {
   background: url("https://images.unsplash.com/photo-1593953443285-bf7335acbca0")
     no-repeat center center/cover;
-  position: absolute;
+  position: fixed;
   top: -30px;
   left: -30px;
   width: calc(100vw + 60px);
@@ -20,6 +20,7 @@ body {
 
 nav {
   background-color: #333;
+  position: fixed;
 }
 
 ul {
